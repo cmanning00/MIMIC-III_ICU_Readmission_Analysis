@@ -25,12 +25,14 @@ Yu-Wei Lin, Yuqian Zhou, Faraz Faghri, Michael J Shaw, and Roy H Campbell. 2018.
 Run the following commands:
 1.  python scripts/extract_subjects.py [MIMIC-III CSVs PATH] [OUTPUT PATH]
 - Produces various files on data subjects such as `stays.csv`, `events.csv`, and `diagnoses.csv`
+- If you get an overflow error using this comman install pandas==0.20.3
 3.  python scripts/validate_events.py [OUTPUT PATH]
 - Fixes some problems with mising data
 5.  python scripts/create_readmission.py [OUTPUT PATH]
 - Produces the file `stays_readmission.csv` is the result of the patient class-labeling process
 6.  python scripts/extract_episodes_from_subjects.py [OUTPUT PATH]
 - Extracts time-series data
+- Install pandas==0.25.3 if you get an error
 8.  python scripts/create_readmission_data.py [OUTPUT PATH] [OUTPUT PATH 2]
 - Remove patients who died in the ICU and generate final preprocessed data
 10.  python scripts/split_train_val_test.py
