@@ -46,20 +46,24 @@ If you use this code for your research, please cite our [paper](https://www.bior
 
 >📋  A template README.md for code accompanying a Machine Learning paper
 
-# My Paper Title
+# Deep Learning for Healthcare Final Project
 
-This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
+This repository is part of a project attempting to reimplement results from [Design and implementation of a deep recurrent model for prediction of readmission in urgent care using electronic health records](https://ieeexplore.ieee.org/document/8791466). 
 
 >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
 ## Requirements
 
-To install requirements:
+1.  Data: before using this code, you must
+2.  You will need the following packages:
+- pandas
+- numpy
+- keras
+- scikit-learn
+- frozendict
+- matplotlib
 
-```setup
-pip install -r requirements.txt
-```
-
+3.  Download the file [claims_codes_hst_300.txt](https://github.com/clinicalml/embeddings).  Add this file to the `/embeddings` folder
 >📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
 ## Training
