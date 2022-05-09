@@ -65,7 +65,7 @@ python3 -u main.py --network ../common_keras_models/lstm_cnn.py --dim 16 --times
 ```
 
 
-##References
+## References
 
 [1] https://github.com/YerevaNN/mimic3-benchmarks
 
