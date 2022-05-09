@@ -5,7 +5,7 @@ This repository is part of a project attempting to reimplement results from [Des
 ## Requirements
 
 ### Download
-1.  Data: before using this code, you must
+1.  Data: before using this code, you must download the MIMIC-III dataset from [physionet](https://physionet.org/content/mimiciii/1.4/)
 2.  You will need the following packages:
 - pandas
 - numpy
