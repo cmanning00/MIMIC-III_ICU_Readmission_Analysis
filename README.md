@@ -2,8 +2,6 @@
 
 This repository is part of a project attempting to reimplement results from [Design and implementation of a deep recurrent model for prediction of readmission in urgent care using electronic health records](https://ieeexplore.ieee.org/document/8791466). 
 
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
-
 ## Requirements
 
 ### Download
