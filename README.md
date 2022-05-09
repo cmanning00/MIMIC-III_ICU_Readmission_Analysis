@@ -21,7 +21,9 @@ Yu-Wei Lin, Yuqian Zhou, Faraz Faghri, Michael J Shaw, and Roy H Campbell. 2018.
 4.  Type the command below in bash:
 - export PYTHONPATH=$PYTHONPATH:[PATH TO THIS REPOSITORY]
 
-##MIMIC-III Benchmarks - Data Preprocessing [source](https://github.com/YerevaNN/mimic3-benchmarks)
+##MIMIC-III Benchmarks 
+- Data Preprocessing [source](https://github.com/YerevaNN/mimic3-benchmarks)
+
 Run the following commands:
 1.  python scripts/extract_subjects.py [MIMIC-III CSVs PATH] [OUTPUT PATH]
 - Produces various files on data subjects such as `stays.csv`, `events.csv`, and `diagnoses.csv`
