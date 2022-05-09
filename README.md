@@ -54,6 +54,7 @@ This repository is part of a project attempting to reimplement results from [Des
 
 ## Requirements
 
+### Download
 1.  Data: before using this code, you must
 2.  You will need the following packages:
 - pandas
@@ -63,7 +64,21 @@ This repository is part of a project attempting to reimplement results from [Des
 - frozendict
 - matplotlib
 
-3.  Download the file [claims_codes_hst_300.txt](https://github.com/clinicalml/embeddings).  Add this file to the `/embeddings` folder
+3.  Download the file [claims_codes_hst_300.txt](https://github.com/clinicalml/embeddings).  Add this file to the `mimic3-readmission/embeddings` folder
+
+4.  Type the command below in bash:
+- export PYTHONPATH=$PYTHONPATH:[PATH TO THIS REPOSITORY]
+
+##MIMIC-III Benchmarks - Data Preprocessing [source](https://github.com/YerevaNN/mimic3-benchmarks)
+Run the following commands:
+1.  python scripts/extract_subjects.py [MIMIC-III CSVs PATH] [OUTPUT PATH]
+- Produces various files on data subjects such as `stays.csv`, `events.csv`, and `diagnoses.csv`
+3.  python scripts/validate_events.py [OUTPUT PATH]
+4.  python scripts/create_readmission.py [OUTPUT PATH]
+5.  python scripts/create_readmission.py [OUTPUT PATH]
+6.  python scripts/extract_episodes_from_subjects.py [OUTPUT PATH]
+7.  python scripts/create_readmission_data.py [OUTPUT PATH] [OUTPUT PATH 2]
+8.  python scripts/split_train_val_test.py
 >📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
 ## Training
