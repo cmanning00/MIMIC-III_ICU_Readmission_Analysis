@@ -1,6 +1,8 @@
 # Deep Learning for Healthcare Final Project
 
-This repository is part of a project attempting to reimplement results from [Design and implementation of a deep recurrent model for prediction of readmission in urgent care using electronic health records](https://ieeexplore.ieee.org/document/8791466). 
+This repository is part of a project attempting to reimplement results from [Design and implementation of a deep recurrent model for prediction of readmission in urgent care using electronic health records](https://ieeexplore.ieee.org/document/8791466).
+
+Yu-Wei Lin, Yuqian Zhou, Faraz Faghri, Michael J Shaw, and Roy H Campbell. 2018. Analysis and prediction of unplanned intensive care unit readmission using recurrent neural networks with long short-term memory. bioRxiv, page 385518.
 
 ## Requirements
 
