@@ -74,12 +74,15 @@ Run the following commands:
 1.  python scripts/extract_subjects.py [MIMIC-III CSVs PATH] [OUTPUT PATH]
 - Produces various files on data subjects such as `stays.csv`, `events.csv`, and `diagnoses.csv`
 3.  python scripts/validate_events.py [OUTPUT PATH]
-4.  python scripts/create_readmission.py [OUTPUT PATH]
+- Fixes some problems with mising data
 5.  python scripts/create_readmission.py [OUTPUT PATH]
+- Produces the file `stays_readmission.csv` is the result of the patient class-labeling process
 6.  python scripts/extract_episodes_from_subjects.py [OUTPUT PATH]
-7.  python scripts/create_readmission_data.py [OUTPUT PATH] [OUTPUT PATH 2]
-8.  python scripts/split_train_val_test.py
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+- Extracts time-series data
+8.  python scripts/create_readmission_data.py [OUTPUT PATH] [OUTPUT PATH 2]
+- Remove patients who died in the ICU and generate final preprocessed data
+10.  python scripts/split_train_val_test.py
+- Divides the data into a training, validation, and test sets
 
 ## Training
 
